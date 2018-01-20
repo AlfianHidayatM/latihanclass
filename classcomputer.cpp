@@ -7,9 +7,12 @@ class Computer {
 	public:
 			void output_information()
 	{
-		cout << "Name: "<< name;
-		cout << "\nRAM: "<< RAM;
-		cout << "\nProcessor Speed: "<< proc_speed;
-		cout << "\n";
+			cout << "Name: "<< name;
+			cout << "\nRAM: "<< RAM;
+			cout << "\nProcessor Speed: "<< proc_speed;
+			cout << "\n";
 	}
+	string name;
+	int RAM;
+	double proc_speed;
 };
